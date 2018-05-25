@@ -1,0 +1,539 @@
+.woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register {
+    border: 1px solid #d3ced2;
+    padding: 20px;
+    margin: 0;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.woocommerce .woocommerce-MyAccount-navigation ul {
+	list-style: none;
+	margin: 0;
+}
+
+.woocommerce .woocommerce-MyAccount-navigation ul li:first-child {
+	padding: 0 0 5px 0;
+}
+
+.woocommerce .woocommerce-MyAccount-navigation ul li {
+	padding: 5px 0;
+}
+
+.woocommerce .woocommerce-MyAccount-navigation ul li a {
+	color: #000;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 600;
+}
+
+.woocommerce .woocommerce-MyAccount-navigation ul li a:hover {
+	color: #888888;
+}
+
+.woocommerce .woocommerce-MyAccount-content p {
+	color: #000;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.woocommerce .woocommerce-MyAccount-content a {
+	color: #888888;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.woocommerce .woocommerce-MyAccount-content a:hover {
+	color: #000;
+}
+
+.woocommerce .woocommerce-Message .woocommerce-Message--info .woocommerce-info {}
+
+.woocommerce-info:before {
+    color: #000;
+}
+
+.woocommerce-error, .woocommerce-info, .woocommerce-message {
+    padding: 1em 2em 1em 3.5em!important;
+    margin: 0 0 2em!important;
+    position: relative;
+    background-color: transparent;
+    color: #000;
+    border-top: none;
+    list-style: none!important;
+    width: auto;
+    word-wrap: break-word;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.woocommerce .woocommerce-MyAccount-content #respond input#submit,
+.woocommerce .woocommerce-MyAccount-content a.button,
+.woocommerce .woocommerce-MyAccount-content button.button,
+.woocommerce .woocommerce-MyAccount-content input.button {
+	width: auto;
+    margin: 0;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    overflow: visible;
+    left: auto;
+    display: block;
+    border-color: #000;
+    background-color: transparent;
+    color: #000;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius: 1px;
+    border: 1px solid #000;
+    font-family: open sans;
+    font-weight: 700;
+    padding: 8px 45px;
+}
+
+.woocommerce .woocommerce-MyAccount-content #respond input#submit:hover,
+.woocommerce .woocommerce-MyAccount-content a.button:hover,
+.woocommerce .woocommerce-MyAccount-content button.button:hover,
+.woocommerce .woocommerce-MyAccount-content input.button:hover {
+	width: auto;
+    margin: 0;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    overflow: visible;
+    left: auto;
+    display: table;
+	margin: 0 auto;
+    border-color: #000;
+    background-color: transparent;
+    color: #000;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius: 1px;
+    border: 1px solid #000;
+    font-family: open sans;
+    font-weight: 700;
+    padding: 8px 45px;
+}
+
+.woocommerce .woocommerce-MyAccount-content form .form-row input.input-text,
+.woocommerce .woocommerce-MyAccount-content form .form-row textarea {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    outline: 0;
+    line-height: 1;
+    padding: 10px 0;
+    display: inline-block;
+    border: 1px;
+    background-color: transparent;
+    border-radius: 0px;
+    border-bottom: 1px solid #888888;
+    margin-bottom: 20px;
+    color: #888888;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: Open sans;
+}
+
+.woocommerce .woocommerce-MyAccount-content legend {
+	color: #888888;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: Open sans;
+    padding-top: 12px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    line-height: inherit;
+	border: none;
+}
+
+.woocommerce .woocommerce-MyAccount-content .woocommerce-EditAccountForm #respond input#submit,
+.woocommerce .woocommerce-MyAccount-content .woocommerce-EditAccountForm a.button,
+.woocommerce .woocommerce-MyAccount-content .woocommerce-EditAccountForm button.button,
+.woocommerce .woocommerce-MyAccount-content .woocommerce-EditAccountForm input.button {
+    width: auto;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    overflow: visible;
+    left: auto;
+    display: table;
+	margin: 0 auto;
+    border-color: #000;
+    background-color: transparent;
+    color: #000;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius: 1px;
+    border: 1px solid #000;
+    font-family: open sans;
+    font-weight: 700;
+    padding: 16px 154px;
+}
+
+.woocommerce .woocommerce-MyAccount-content .woocommerce-EditAccountForm #respond input#submit:hover,
+.woocommerce .woocommerce-MyAccount-content .woocommerce-EditAccountForm a.button:hover,
+.woocommerce .woocommerce-MyAccount-content .woocommerce-EditAccountForm button.button:hover,
+.woocommerce .woocommerce-MyAccount-content .woocommerce-EditAccountForm input.button:hover {
+    width: auto;
+    margin: 0;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    overflow: visible;
+    left: auto;
+    display: table;
+	margin: 0 auto;
+    border-color: #000;
+    background-color: transparent;
+    color: #000;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius: 1px;
+    border: 1px solid #000;
+    font-family: open sans;
+    font-weight: 700;
+    padding: 16px 154px;
+}
+
+.woocommerce .woocommerce-MyAccount-content form.edit-address-data .form-row label,
+.select2-drop {
+	display: none;
+}
+
+.woocommerce .woocommerce-MyAccount-content form .form-row .select2-container {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    outline: 0;
+    line-height: 1;
+    padding: 10px 0;
+    border: none;
+    background-color: transparent;
+    border-radius: 0px;
+    border-bottom: 1px solid #888888;
+    margin-bottom: 20px;
+    color: #888888;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: Open sans;
+}
+
+.select2-container .select2-choice {
+    display: block;
+    padding: 0 0 0 8px;
+    overflow: hidden;
+    position: relative;
+    border: none;
+    white-space: nowrap;
+    color: #888888;
+    text-decoration: none;
+    border-radius: 3px;
+    background-clip: padding-box;
+    user-select: none;
+    background-color: #fff;
+    font-weight: 400;
+	padding: 0;
+}
+
+.select2-drop-active {
+    border: none;
+}
+
+.woocommerce .woocommerce-MyAccount-content form .form-row .select2-container a {
+    color: #888888!important;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.select2-results {
+    background: #fff;
+}
+
+.select2-search input {
+    width: 100%;
+    height: auto!important;
+    padding: 4px 20px 4px 5px!important;
+    margin: 0;
+    outline: 0;
+    font-family: sans-serif;
+    font-size: 1em;
+    border: none;
+    border-bottom: 1px solid #888888;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.woocommerce .woocommerce-MyAccount-content #respond input#submit,
+.woocommerce .woocommerce-MyAccount-content a.button,
+.woocommerce .woocommerce-MyAccount-content button.button,
+.woocommerce .woocommerce-MyAccount-content input.button {
+    width: auto;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    overflow: visible;
+    left: auto;
+    display: table;
+	margin: 0 auto;
+    border-color: #303030;
+    background-color: transparent;
+    color: #000;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius: 1px;
+    border: 1px solid #303030;
+    font-family: open sans;
+    font-weight: 700;
+    padding: 8px 45px;
+}
+
+.woocommerce .woocommerce-MyAccount-content form.edit-address-data h3 {
+	color: #888888;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: Open sans;
+    padding-top: 12px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    line-height: inherit;
+    border: none;
+}
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+	box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    outline: 0;
+    line-height: 1;
+    padding: 10px 0;
+    display: inline-block;
+    border: 1px;
+    background-color: transparent;
+    border-radius: 0px;
+    border-bottom: 1px solid #888888;
+    margin-bottom: 20px;
+    color: #888888;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: Open sans;
+}
+
+.woocommerce .normal-login form .form-row label.inline,
+.woocommerce .normal-login p a {
+	color: #000;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 14px;
+	display: table;
+	margin: 10px auto 0;
+}
+
+.woocommerce .normal-login h2 {
+	color: #888888;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: Open sans;
+    padding-top: 12px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    line-height: inherit;
+    border: none;
+	text-align: center;
+}
+
+.woocommerce .normal-login form.login {
+	border: none;
+}
+
+.dropdown-menu .woocommerce .normal-login #respond input#submit,
+.woocommerce .normal-login a.button,
+.dropdown-menu .woocommerce .normal-login button.button,
+.woocommerce .normal-login input.button {
+    width: auto;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    overflow: visible;
+    left: auto;
+    display: table;
+    margin: 0 auto;
+    border-color: #000;
+    background-color: transparent;
+    color: #000;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius: 1px;
+    border: 1px solid #000;
+    font-family: open sans;
+    font-weight: 700;
+    padding: 16px 154px;
+}
+
+.dropdown-menu .woocommerce .normal-login #respond input#submit:hover,
+.woocommerce .normal-login a.button:hover,
+.dropdown-menu .woocommerce .normal-login button.button:hover,
+.woocommerce .normal-login input.button:hover {
+    width: auto;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    overflow: visible;
+    left: auto;
+    display: table;
+    margin: 0 auto;
+    border-color: #000;
+    background-color: transparent;
+    color: #000;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius: 1px;
+    border: 1px solid #000;
+    font-family: open sans;
+    font-weight: 700;
+    padding: 16px 154px;
+}
+
+.tm-collapse {
+    border-top: 1px solid #000;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    background-image: none!important;
+    background-image: none!important;
+    background-image: none!important;
+    background-image: none!important;
+    background-image: none!important;
+    background-image: none!important;
+    margin: 0 0 0;
+    float: left;
+    width: 100%;
+    padding: 1em 0;
+}
+
+.tm-extra-product-options span.tm-epo-field-label {
+    font-weight: bold;
+    color: #000;
+}
+
+.cart .tcfa-angle-down:before {
+    content: "+";
+}
+
+.cart .tcfa-angle-up:before {
+    content: "-";
+}
+
+.radio_image_label, .checkbox_image_label {
+    display: block;
+    text-align: center;
+    float: left;
+/*    padding: 1em 40px;*/
+    line-height: 2.3;
+}
+
+.tm-extra-product-options .radio_image, .tm-extra-product-options .checkbox_image {
+    border: 1px solid transparent;
+    display: block;
+    height: auto;
+    float: left;
+    width: auto;
+    margin: auto;
+    max-width: 100%;
+    padding: 1px;
+    cursor: pointer;
+    pointer-events: initial !important;
+}
+
+span.tm-epo-field-label.tm-section-label.tm-toggle:after {
+	content: "Select option";
+	display: table;
+    margin: -20px auto 0;
+    color: #d7d5d4;
+    font-size: 13px;
+}
+
+.tm-description ul {
+	margin: 0!important;
+    padding: 12px 19px 0!important;
+    font-weight: 600;
+    color: #000;
+    font-size: 14px;
+}
+
+.text-info-div {
+	text-align: center;
+    color: #d7d5d4;
+    font-size: 14px;
+}
+
+/*.tm-extra-product-options ul.tmcp-ul-wrap li.tmcp-field-wrap input.use_images + label {
+    display: table;
+    padding: 0 !important;
+    max-width: 100%;
+    border: 0 solid;
+    position: relative;
+    line-height: 0;
+    font-size: 13.5px;
+    margin: 0 31.4% !important;
+    height: auto !important;
+    background: none !important;
+}*/
+
+@media (min-width: 769px) {
+.tm-extra-product-options ul.tmcp-ul-wrap li.tmcp-field-wrap input.use_images + label {
+		display: table;
+		padding: 0 !important;
+		max-width: 100%;
+		width: 46%;
+		border: 0 solid;
+		position: relative;
+		line-height: 0;
+		font-size: 13.5px;
+		margin: 0 auto !important;
+		height: auto !important;
+		background: none !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.tm-extra-product-options ul.tmcp-ul-wrap li.tmcp-field-wrap input.use_images + label {
+		display: table;
+		padding: 0 !important;
+		max-width: 100%;
+		width: 86%;
+		border: 0 solid;
+		position: relative;
+		line-height: 0;
+		font-size: 13.5px;
+		margin: 0 auto !important;
+		height: auto !important;
+		background: none !important;
+	}
+}
+
+.tm-extra-product-options .tm-cell {
+    position: relative;
+    padding: 0 1em;
+    margin: 1em 0 2.6em 0;
+    float: left !important;
+    min-height: 1px;
+    overflow: visible;
+}
