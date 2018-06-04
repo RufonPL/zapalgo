@@ -208,7 +208,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	    <?php if( have_rows('files') ):
 	        while ( have_rows('files') ) : the_row(); ?>
 		        <div class="file">
-			        <a href="<?php the_sub_field('file'); ?>"><img src="http://www.e-conex.pl/zapalgo/wp-content/uploads/2017/03/download.png" alt=""><span class="txt"><?php the_sub_field('name_file'); ?></span></a>
+			        <a href="<?php the_sub_field('file'); ?>"><img src="https://zapalgo.com/wp-content/uploads/2017/03/download.png" alt=""><span class="txt"><?php the_sub_field('name_file'); ?></span></a>
 			    </div>
 	        <?php endwhile;
 	    endif; ?>	

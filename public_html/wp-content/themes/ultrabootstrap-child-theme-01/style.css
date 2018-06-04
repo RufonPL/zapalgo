@@ -468,11 +468,11 @@ header .navbar-default .navbar-nav li a {
 }
 
 .slick-next::before {
-  content: url(http://www.e-conex.pl/zapalgo/wp-content/uploads/2017/01/left.jpg);
+  content: url(https://zapalgo.com/wp-content/uploads/2017/01/left.jpg);
 }
 
 .slick-prev::before {
-  content: url(http://www.e-conex.pl/zapalgo/wp-content/uploads/2017/01/right.jpg);
+  content: url(https://zapalgo.com/wp-content/uploads/2017/01/right.jpg);
 }
 
 
@@ -2097,7 +2097,7 @@ ul.navbar-nav:after{
 
 
 .carousel .glyphicon-chevron-left:before {
-    content: url(http://www.e-conex.pl/zapalgo/wp-content/uploads/2017/01/right.jpg);
+    content: url(https://zapalgo.com/wp-content/uploads/2017/01/right.jpg);
     background-color: transparent !important;
     background: transparent;
     right: 105px;
@@ -2107,7 +2107,7 @@ ul.navbar-nav:after{
 }
 
 .carousel .glyphicon-chevron-right:before {
-    content: url(http://www.e-conex.pl/zapalgo/wp-content/uploads/2017/01/left.jpg);
+    content: url(https://zapalgo.com/wp-content/uploads/2017/01/left.jpg);
     background-color: transparent !important;
     background: transparent;
     left: 105px;
