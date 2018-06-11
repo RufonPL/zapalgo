@@ -41,17 +41,19 @@
 <script type="text/javascript">
 window.addEventListener('DOMContentLoaded', function() {
   $.get("https://ipinfo.io", function(response) {
+//      console.log(response);
       if(response && response.country){
         $('#customer_default_country').val(response.country);
         var currency = _set_currency(response.country),
-		url = window.location.origin + window.location.pathname + '?&alg_currency=' + currency + '&customer_set_default_country=' + response.country;		
+		url = window.location.origin + window.location.pathname + '?&alg_currency=' + currency + '&customer_set_default_country=' + response.country + '&endurl=' + document.URL;
+          console.log(url);
 		window.location.replace(url);
       }else{
         $('#default-country-container-form').show();
         $('.default-country-container .loadingContainer').hide();
       }
 }, "jsonp");
-  
+
 });
     
 </script>
@@ -106,9 +108,7 @@ window.addEventListener('DOMContentLoaded', function() {
 			echo bloginfo('url').$redirect;
 			echo '";</script>';
 		} else {
-			echo '<script>window.location.href = "';
-			echo bloginfo('url');
-			echo '";</script>';
+			echo '<script>window.location.href = window.location.origin + window.location.pathname;</script>';
 		}
 }
 ?>

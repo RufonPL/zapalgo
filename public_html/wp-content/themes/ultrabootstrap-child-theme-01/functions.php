@@ -119,10 +119,13 @@ if( function_exists('acf_add_options_page') ) {
 if( isset( $_GET['rtc'] ) && absint( $_GET['rtc'] ) == 1 ) { // redirect to checkout
 				wp_safe_redirect( get_permalink( get_option( 'woocommerce_checkout_page_id' ) ).'?alg_currency='.sanitize_text_field($_GET['alg_currency']).'&rfc='.get_the_ID() ); exit();
 			}else {
- */
-
-		wp_safe_redirect( get_permalink().'?alg_currency='.sanitize_text_field($_GET['alg_currency']) ); exit();
-			
+ */  //       echo ($_GET['endurl']);
+			if (isset ($_GET['endurl'])){
+			    $endurl = 'endurl=' . $_GET['endurl'];
+                wp_safe_redirect( $_GET['endurl'] . '?alg_currency='.sanitize_text_field($_GET['alg_currency']) . $endurl ); exit();
+            } else {
+                wp_safe_redirect( get_permalink().'?alg_currency='.sanitize_text_field($_GET['alg_currency'])); exit();
+            }
 		}
 	}
 }
